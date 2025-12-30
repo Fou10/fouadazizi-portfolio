@@ -8,28 +8,28 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
-            Welcome to My Portfolio
+            Bonjour, je suis Fouad <span className="wave">👋</span>
           </h1>
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Développeur FullStack diplômé d’un master Génie Logiciel, avec un an
-            d’expérience en alternance en tant que développeur FullStack
-            passionné par les pratiques DevOps. Proactif, orienté résultats et
-            curieux je souhaite contribuer à des projets innovants et à forte
-            valeur ajoutée.
+            Développeur Full Stack titulaire d’un Master en Génie Logiciel, j’ai
+            acquis une solide expérience en alternance dans la conception et le
+            développement d’applications web. Curieux, proactif et sensible aux
+            pratiques DevOps, je souhaite contribuer à des projets techniques
+            ambitieux et innovants.
           </p>
           <div className="flex justify-center space-x-4">
             <a
               href="#projects"
               className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
             >
-              View Projects
+              Voir mes projets
             </a>
             <a
               href="#contact"
               className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200
              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
             >
-              Contact Me
+              Contactez-moi
             </a>
           </div>
         </div>

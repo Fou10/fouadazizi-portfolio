@@ -26,7 +26,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
-        Home
+        Acceuil
       </a>
       <a
         href="#about"
@@ -35,7 +35,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
-        About
+        À propos
       </a>
       <a
         href="#projects"
@@ -44,7 +44,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
-        Projects
+        Projets
       </a>
       <a
         href="#contact"
